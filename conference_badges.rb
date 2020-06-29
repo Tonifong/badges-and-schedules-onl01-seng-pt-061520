@@ -31,7 +31,7 @@ end
     end
     
    newconcept=assign_rooms(attendees)
-   newconcept.each do |name, index|
-     puts name
+   newconcept.each do |new_array|
+     puts new_array
    end
   end
