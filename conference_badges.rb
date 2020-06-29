@@ -32,7 +32,7 @@ end
     
    newconcept=assign_rooms(attendees)
    newconcept.each do |name|
-     puts name
+     puts printer
    end
     return printer
   end
