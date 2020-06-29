@@ -34,5 +34,5 @@ end
    newconcept.each do |name|
      puts name
    end
-    puts printer
+    return printer
   end
