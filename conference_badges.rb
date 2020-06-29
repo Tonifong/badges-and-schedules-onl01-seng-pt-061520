@@ -27,7 +27,9 @@ end
     newvar= batch_badge_creator(attendees)
     newvar.each do |name|
       puts name
+      
     end
+    
    newconcept=assign_rooms(attendees)
    newconcept.each do |name|
      puts name
